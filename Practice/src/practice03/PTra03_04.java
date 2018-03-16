@@ -34,7 +34,11 @@ public class PTra03_04 {
 		 */
 
 
-		
+		if(num % 400 == 0) {
+			
+		}else if(num % 4 == 0) {
+			
+		}
 
 		
 	}

@@ -18,5 +18,28 @@ public class PTra03_09 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+		
+		
+		int week = new java.util.Scanner(System.in).nextInt();
+		
+
+		
+		if(week == 0) {
+			System.out.println("日曜");
+		}else if(week == 1){
+			System.out.println("月曜");
+		}else if(week == 2){
+			System.out.println("火曜");
+		}else if(week == 3){
+			System.out.println("水曜");
+		}else if(week == 4){
+			System.out.println("木曜");
+		}else if(week == 5){
+			System.out.println("金曜");
+		}else if(week == 6){
+			System.out.println("土曜");
+		}else{
+			System.out.println("0～6の整数を入力してください");
+		}	
 	}
 }
