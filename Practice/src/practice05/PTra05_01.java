@@ -23,6 +23,28 @@ public class PTra05_01 {
 		 *  ●numが0だった場合			->	「前の単元を復習してください」
 		 *  ●numが0～5以外だった場合	->	「正しい数値を入れてください」
 		 */
+		
+		
+		int result = num;
+        switch (result) {
+            case 5:
+                System.out.println("満点");
+                break;
+            case 4:
+                System.out.println("合格点");
+                break;
+            case 3:
+                System.out.println("もう少しで合格");
+                break;
+            case 2:
+                System.out.println("不合格");
+                break;
+            case 1:
+                System.out.println("前の単元を復習してください");
+                break;
+            default:
+                System.out.println("正しい数値を入れてください");
 
+        }
 	}
 }

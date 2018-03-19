@@ -34,12 +34,14 @@ public class PTra01_07 {
 
 		// ★ それぞれの変数の中身を出力してください
 		System.out.println(bo+by+s+c+i+l+f+d);
-
-
-
-
-
-
+		System.out.println(bo);
+		System.out.println(by);
+		System.out.println(s);
+		System.out.println(c);
+		System.out.println(i);
+		System.out.println(l);
+		System.out.println(f);
+		System.out.println(d);
 
 
 	}

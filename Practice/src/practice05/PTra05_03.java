@@ -42,13 +42,29 @@ public class PTra05_03 {
 			 * ●変数lineが上記以外であった場合	->	「無効票です」を出力
 			 */
 
-
-
+			switch(line) {
+				case "山"://""で囲うこと。
+				mountain += 1;
+				break;
+				
+				case "川":
+				river += 1;
+				break;
+				
+				case "海":
+				ocean += 1;
+				break;
+				
+				default:
+					System.out.println("無効票です");
+			}
 			// ★ 変数indexに1を足して、変数indexに代入してください
-
+				index += 1;
 		}
 
 		// ★ 変数mountain、river、oceanの票数をそれぞれ出力してください
-
+		System.out.println("山の票数"+mountain);
+		System.out.println("川の票数"+river);
+		System.out.println("海の票数"+ocean);
 	}
 }

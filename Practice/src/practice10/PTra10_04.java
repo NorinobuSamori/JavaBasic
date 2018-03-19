@@ -15,10 +15,10 @@ public class PTra10_04 {
 	public static void main(String[] args) {
 
 		// ★ User型の変数が3つ入る配列usersを宣言・確保してください
-
+		int users[] = new User;
 
 		// ★ java.util.Scannerクラスをインスタンス化し、変数scannerに代入してください
-
+		int scanner = new java.util.Scanner();
 
 		// ★ usersのサイズ分繰り返す制御構文を記述してください
 		//----------- ループ start
@@ -27,7 +27,7 @@ public class PTra10_04 {
 			System.out.println("ユーザID（数字）、 ユーザ名、メールアドレス、パスワードをカンマ区切りで入力してください");
 
 			// ★ コマンドプロンプトに入力された値を、String型の変数lineに格納してください
-
+			String line = 
 
 			// ★ 変数lineに格納されている値を','で区切り、配列にしてください（Stringクラスのメソッドを使用します）
 

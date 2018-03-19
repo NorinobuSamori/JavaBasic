@@ -9,7 +9,7 @@ package practice09.util;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-
+import 
 /**
  * 様々なメソッドを集めたJavaプログラムです。
  * util.Utilをインポートして使用してください。

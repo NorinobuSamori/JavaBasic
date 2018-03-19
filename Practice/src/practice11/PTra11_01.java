@@ -19,6 +19,7 @@ public class PTra11_01 {
 		book.price = 2600;
 		book.pageSize = 657;
 		book.publication = "インプレス";
+		
 
 		// 本の情報を出力します
 		System.out.println(book.dispBookInfo());
