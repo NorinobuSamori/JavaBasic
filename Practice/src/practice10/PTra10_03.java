@@ -19,24 +19,32 @@ public class PTra10_03 {
 		User us;
 
 		// ★ 変数usに、Userクラスのインスタンスを作成・代入してください
-		us = User();
+		us = new User();
 
 		System.out.println("ユーザID（数字）、 ユーザ名、メールアドレス、パスワードをカンマ区切りで入力してください");
 
 		// ★ java.util.Scannerクラスをインスタンス化し、変数scannerに代入してください
-		java.util.Scanner scanner = new java.util.Scanner();
+		java.util.Scanner scanner = new java.util.Scanner(System.in);
 
 		// ★ 入力された値を、String型の変数lineに格納してください
-		String line = scanner;
+		String line = "scanner";
+
 
 		// ★ 変数lineに格納されている値を','で区切り、配列にしてください（Stringクラスのメソッドを使用します）
-		String = 
+
+		String[] a = line.split(",", 0);
 
 		// ★ 配列にした値を、usの各フィールドに代入してください
 		// ユーザIDに該当する値が数値でなかった場合は、エラーでプログラムが止まっても良いです
-
+		us.userId = Integer.parseInt(a[0]);;/////int型とString型の問題を解決できていない。
+		us.userNm = a[1];
+		us.mail = a[2];
+		us.password = a[3];
 
 		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
-
+		System.out.println(us.userId);
+		System.out.println(us.userNm);////
+		System.out.println(us.mail);
+		System.out.println(us.password);
 	}
 }

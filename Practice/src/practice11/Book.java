@@ -14,6 +14,21 @@ import java.text.NumberFormat;
  */
 public class Book {
 
+	/** 本のタイトル */
+	String title;
+
+	/** 著者 */
+	String author;
+
+	/** 定価 */
+	int price;
+
+	/** ページ数 */
+	int pageSize;
+
+	/** 出版社 */
+	String publication;
+
 	/**
 	 * コンストラクタの定義。
 	 * 本の情報を予め指定してインスタンスを作成します
@@ -31,20 +46,7 @@ public class Book {
 		this.publication = publication;
 	}
 
-	/** 本のタイトル */
-	String title;
 
-	/** 著者 */
-	String author;
-
-	/** 定価 */
-	int price;
-
-	/** ページ数 */
-	int pageSize;
-
-	/** 出版社 */
-	String publication;
 
 	/**
 	 * 本の情報を文字列で取得します

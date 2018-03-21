@@ -17,15 +17,23 @@ public class PTra11_03 {
 	 * ★ 処理は、クラスフィールドnumberに1を加算してください
 	 */
 
+
+	int number;
+
+	PTra11_03(){
+		number += 1;
+	}
+
 	public static void main(String[] args) {
 
 		// ★ sumメソッドを呼び出してください
-
+		PTra11_03 tra11_03 = new PTra11_03();
+		tra11_03.sum(5,7);
 	}
 
 	public void sum(int x, int y) {
 		System.out.println("sumメソッドを呼び出しました。" + x + "＋" + y + "＝" + (x + y));
 
-		System.out.println("クラスフィールドnumber：" /* + ★ クラスフィールドnumberの出力をしてください */);
+		System.out.println("クラスフィールドnumber：" + this.number/* + ★ クラスフィールドnumberの出力をしてください */);
 	}
 }

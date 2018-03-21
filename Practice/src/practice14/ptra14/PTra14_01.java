@@ -8,6 +8,7 @@ package practice14.ptra14;
 
 public class PTra14_01 {
 
+	
 	/*
 	 * ★ common.Courseを実装した、JavaCourseクラスを作成してください
 	 *
@@ -22,5 +23,9 @@ public class PTra14_01 {
 	 * 		継承
 	 * 		高度な継承
 	 */
+	
+	public class JavaCourse implements common.Course{
+		
+	}
 
 }

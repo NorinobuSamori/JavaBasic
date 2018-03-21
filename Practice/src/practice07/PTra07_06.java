@@ -8,7 +8,8 @@ package practice07;
 
 public class PTra07_06 {
 	public static void main(String[] args) {
-
+		int sum = 0;
+		int count = 0;
 		// ★ ※2次元配列を用いています
 		int[][] array = {
 				{500,40,6},
@@ -17,13 +18,14 @@ public class PTra07_06 {
 
 		// ★ 配列arrayに格納されている全ての数字の平均を出力してください
 		for (int[] score : array) {
-            int sum = 0;
             for (int i : score) {
                 sum += i;
+                count ++;
             }
-            System.out.println(sum/score.length);
-        }
+		}
+            System.out.println(sum/array.length);
 		/////まだ未完成
 
 	}
 }
+
