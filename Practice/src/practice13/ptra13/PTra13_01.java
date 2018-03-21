@@ -6,24 +6,24 @@
  */
 package practice13.ptra13;
 
-public class PTra13_01 {
+public class  PTra13_01 extends common.Animal {
 
 	/*
 	 * ★ PTra13_01クラスはcommon.Animalクラスを継承してください
 	 */
-
 	
+
 
 	public static void main(String[] args) {
 
 		// ★ PTra13_01をインスタンス化をしてください
-		PTra13_01 ptra = new PTra13_01();
+		PTra13_01 ptra1301 = new PTra13_01();
 
 		// ★ PTra13_01の持つsetterを実行してください（引数："人"）
-		ptra.setter("人");
+		ptra1301.setName("人");
 
 		// ★ PTra13_01の持つインスタンスメソッドrunとbreathを実行してしてください
-		ptra.run();
-		ptra.breath();
+		ptra1301.run();
+		ptra1301.breath();
 	}
 }

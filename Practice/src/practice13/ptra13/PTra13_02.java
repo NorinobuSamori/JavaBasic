@@ -12,9 +12,6 @@ public class PTra13_02 {
 	 * ★ common.Characterクラスを継承した、common.Heroクラスを作成してください
 	 * 	●HP, POWER, ENDURANCEはそれぞれ、（25, 10, 7）
 	 */
-	public class common.Charactter extends common.Hero{
-		common.Charactter.Character(25, 10 ,7);
-	} 
 
 	public static void main(String[] args) {
 		// ★ common.Heroクラスをインスンタンス化してください

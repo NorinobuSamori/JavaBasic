@@ -20,14 +20,14 @@ public class PTra11_03 {
 
 	int number;
 
-	PTra11_03(){
+	PTra11_03(){///よく見ると();がついている。
 		number += 1;
 	}
 
 	public static void main(String[] args) {
 
 		// ★ sumメソッドを呼び出してください
-		PTra11_03 tra11_03 = new PTra11_03();
+		PTra11_03 tra11_03 = new PTra11_03();/////これでコンストラクタを使用可能になりました。
 		tra11_03.sum(5,7);
 	}
 

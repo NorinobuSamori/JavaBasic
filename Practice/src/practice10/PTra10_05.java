@@ -40,7 +40,12 @@ public class PTra10_05 {
 
 		// 目的地までの距離
 		final int distance = 300;
+		
+		Car car1 = new Car();/////new car();ではない。
+		Car car2 = new Car();
+		Car car3 = new Car();
 
+		
 		/*
 		 * ★ 変数carに格納されているインスタンスメソッドrunを使って、目的地まで進んでください
 		 * ★ 先にガソリンがなくなった場合は、「目的地に到達できませんでした」を出力してください
@@ -52,6 +57,7 @@ public class PTra10_05 {
 		while (true) {
 
 			int run = car.run();
+			
 			count += 1;
 
 			if(run == -1) {
