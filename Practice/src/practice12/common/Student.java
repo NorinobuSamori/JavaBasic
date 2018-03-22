@@ -30,56 +30,56 @@ public class Student {
 	/** パスワード */
 	private String password;
 
-
-	////public int studentId(int studentId) {//戻り値を書こう。public class studentId()ではない。
-		////this.studentId = studentId;//this.studentId = studentId;//を書き忘れていた。
-		////return this.studentId;
-	////}
-	////ではない。
-
-	public void setStudentId(int studentId) {//戻り値を書こう。public class studentId();ではない。
-		this.studentId = studentId;//this.studentId = studentId;//を書き忘れていた。
-		//intをvoidに書き換えないとエラーが起きる。
-		//結局return this.studentId;を切り取った。
+	public int getStudentId() {
+		return studentId;
 	}
-	public int getStudentId() {//戻り値を書こう。public class studentId()ではない。
-		return this.studentId;
+
+	public void setStudentId(int studentId) {
+		this.studentId = studentId;
 	}
-	
+
+	public String getStudentName() {
+		return studentName;
+	}
+
 	public void setStudentName(String studentName) {
 		this.studentName = studentName;
 	}
-	public String getStudentName() {
-		return this.studentName;
+
+	public String getCompanyName() {
+		return companyName;
 	}
-	
+
 	public void setCompanyName(String companyName) {
 		this.companyName = companyName;
 	}
-	public String getCompanyName() {
-		return this.companyName;
+
+	public String getClassName() {
+		return className;
 	}
-	
+
 	public void setClassName(String className) {
 		this.className = className;
 	}
-	public String getClassName() {
-		return this.className;
+
+	public String getMail() {
+		return mail;
 	}
-	
+
 	public void setMail(String mail) {
 		this.mail = mail;
 	}
-	public String getMail() {
-		return this.mail;
+
+	public String getPassword() {
+		return password;
 	}
-	
-	public void setPassword(String password) {//引数を空欄にするというミスをしていた。
+
+	public void setPassword(String password) {
 		this.password = password;
 	}
-	public String getPassword() {
-		return this.password;
-	}
+
+
+
 
 
 

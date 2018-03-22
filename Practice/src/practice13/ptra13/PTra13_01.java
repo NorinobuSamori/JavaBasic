@@ -6,7 +6,9 @@
  */
 package practice13.ptra13;
 
-public class  PTra13_01 extends common.Animal {
+import practice13.common.Animal;
+
+public class  PTra13_01 extends Animal {
 
 	/*
 	 * ★ PTra13_01クラスはcommon.Animalクラスを継承してください

@@ -1,13 +1,6 @@
-/*
- * PTra13_08.java
- *   作成	LIKEIT	2017
- *------------------------------------------------------------
- * Copyright(c) Rhizome Inc. All Rights Reserved.
- */
-package practice13.ptra13;
+package practice13.common;
 
-public class PTra13_08 {
-
+public class Employee extends Person{
 	/*
 	 * ★ common.Personクラスを継承して、common.Employeeクラスを作成してください
 	 *
@@ -16,6 +9,18 @@ public class PTra13_08 {
 	 * 		departmentCnt（部署人数）	:	int
 	 * メソッド
 	 * 		各フィールドのアクセサ
+	 * 
+	 * pt13-8より
+	 * 
+	 * 
 	 */
+	
+	public Employee() {
+		String departmentNm;;
+		int departmentCnt;
+	}
+	
+
+	
 	
 }

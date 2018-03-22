@@ -6,6 +6,11 @@
  */
 package practice13.common;
 
+
+
+
+
+
 /**
  * ユーザ情報を保持するクラスです
  * @author rhizome

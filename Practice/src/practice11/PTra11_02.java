@@ -15,16 +15,16 @@ public class PTra11_02 {
 
 		System.out.println("探したい本のタイトル（又はその一部）を入力してください");
 		String line = new java.util.Scanner(System.in).nextLine();
-		
+
 		// ★ ユーザが入力した文字列が、本情報のタイトル一部に含まれていた場合は、その本情報を出力してください
 		for(int i = 0 ; i < booklists.length ; i++ ) {
-			int result = booklists[i].indexOf(line);
+			int result = booklists[i].title.indexOf(line);
 			if (result != -1) {
-			    System.out.println(booklists[i]);
+			    System.out.println(booklists[i].dispBookInfo());
 			} else {
 			    System.out.println("本が見つかりません");
 			}
 		}
-		
+
 	}
 }
