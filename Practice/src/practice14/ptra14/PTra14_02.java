@@ -6,8 +6,6 @@
  */
 package practice14.ptra14;
 
-import practice14.common.Course;
-
 public class PTra14_02 {
 
 	/*
@@ -21,7 +19,5 @@ public class PTra14_02 {
 	 * 		正規化
 	 * 		SQL応用
 	 */
-	public class JavaCourse implements Course{
-		
-	}
+	
 }

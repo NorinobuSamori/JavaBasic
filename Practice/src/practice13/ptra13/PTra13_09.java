@@ -6,6 +6,8 @@
  */
 package practice13.ptra13;
 
+import practice13.common.Employee;
+
 public class PTra13_09 {
 
 	/*
@@ -31,9 +33,73 @@ public class PTra13_09 {
 	 * エントリーポイント
 	 * @param args
 	 */
+
+//	public String getDepartmentNm() {
+//		return departmentNm;
+//	}
+//
+//	public void setDepartmentNm(String departmentNm) {
+//		this.departmentNm = departmentNm;
+//	}
+//
+//	public int getDepartmentCnt() {
+//		return departmentCnt;
+//	}
+//
+//	public void setDepartmentCnt(int departmentCnt) {
+//		this.departmentCnt = departmentCnt;
+//	}
+
 	public static void main(String[] args) {
 
+		Employee e1 = new Employee();
+		Employee e2 = new Employee();
+		Employee e3 = new Employee();
+
+		Employee[] emplist = {e1, e2, e3};
+
+		for (int i = 0; i < emplist.length; i++) {
+			emplist[i].setUserNm(NAMEDATA[i]);
+			emplist[i].setMail(MAILDATA[i]);
+			emplist[i].setPassword(PASSDATA[i]);
+			emplist[i].setDepartmentNm(QUATERDATA[0][i]);
+			emplist[i].setDepartmentCnt(Integer.valueOf(QUATERDATA[1][i]).intValue());
+		}
+
+
+
+
+
 		// ★ 定数で定義されている各データを使用して、Employeeインスタンスを３つ作成してください
+
+
+
+
+
+
+
+
+
+
+//
+//		String departmentNm = null;
+//		int departmentCnt = 0;
+//
+//		public String getDepartmentNm() {
+//			return departmentNm;
+//		}
+//
+//		public void setDepartmentNm(String departmentNm) {
+//			this.departmentNm = departmentNm;
+//		}
+//
+//		public int getDepartmentCnt() {
+//			return departmentCnt;
+//		}
+//
+//		public void setDepartmentCnt(int departmentCnt) {
+//			this.departmentCnt = departmentCnt;
+//		}
 
 	}
 }

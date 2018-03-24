@@ -15,9 +15,12 @@ public class PTra15_02 {
 		Room room = new Java2Month();
 
 		// roomに格納されたJava2MonthインスタンスのgetCurriculumメソッドを呼び出してください
-
+		Java2Month jRoom = (Java2Month)room;////この()roomが足りなかった。このエラーの原因は、interfaceにないはずのgetCurriculum();を呼び出そうとしていたためであった。
+		String[] array = jRoom.getCurriculum();
 
 		// 取得したカリキュラム情報を全て出力してください
-
+		for(int i = 1 ; i < array.length ; i++ ) {
+			System.out.println(array[i]);
+		}
 	}
 }

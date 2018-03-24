@@ -16,9 +16,28 @@ public class PTra16_03 {
 	 *	・その後、改行をして「PTra16_03#toString()の処理」という文字列を連結してください
 	 */
 
-	public static void main(String[] args) {
 
+
+	////親クラスはどちらでしょうか
+	////toStringでオーバーライドの意味が分かりません。
+	////文字列を連結というのはどういう意味なのでしょうか
+	public String toString() {
+		return super.toString() + "\nPTra16_03#toString()の処理";////F3のコマンドでtoString(){}の参照(Object.class)をする必要があった。
+	}
+
+
+	public static void main(String[] args) {
 		// ★ PTra16_03クラスのtoStringメソッドの内容を出力してください
+		/////System.out.println("");
+
+		PTra16_03 pTra16_03 = new PTra16_03();
+		System.out.println(pTra16_03.toString());
 
 	}
 }
+
+
+
+
+
+

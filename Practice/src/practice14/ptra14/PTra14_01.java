@@ -6,12 +6,9 @@
  */
 package practice14.ptra14;
 
-import practice14.common.Course;
+public class PTra14_01  {
 
-public class PTra14_01 {
 
-	
-	
 	/*
 	 * ★ common.Courseを実装した、JavaCourseクラスを作成してください
 	 *
@@ -25,10 +22,12 @@ public class PTra14_01 {
 	 * 		オブジェクト指向
 	 * 		継承
 	 * 		高度な継承
+	 * 
+	 * 
 	 */
 	
-	public JavaCourse implements Course{
-		
-	}
-
+	
+	
+	
+	
 }

@@ -19,19 +19,18 @@ public class SuperHero extends Hero{
 
 
 		Item equipment;
+
+
 //		public int attack() {
 //			return this.power;
 //		}
-
-
-
 //setAddtionalDamage(int addtionalDamage)
 
 
 
 
 		public int attack() {
-			return attack() + equipment.getAddtionalDamage();
+			return super.attack() + equipment.getAddtionalDamage();
 		}
 
 
