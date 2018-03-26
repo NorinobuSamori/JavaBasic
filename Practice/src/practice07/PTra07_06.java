@@ -23,8 +23,7 @@ public class PTra07_06 {
                 count ++;
             }
 		}
-            System.out.println(sum/array.length);
-		/////まだ未完成
+            System.out.println(sum/count);
 
 	}
 }

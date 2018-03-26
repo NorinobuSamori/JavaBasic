@@ -40,6 +40,9 @@ public class PTra05_01 {
                 System.out.println("不合格");
                 break;
             case 1:
+				System.out.println("もう少しがんばりましょう");
+				break;
+            case 0:
                 System.out.println("前の単元を復習してください");
                 break;
             default:

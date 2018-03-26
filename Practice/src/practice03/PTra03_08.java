@@ -44,11 +44,11 @@ public class PTra03_08 {
 		if(num == 1) {
 			money -= 200;
 		}
-		
-		System.out.println(money);
-		
-		
-		
-		
+
+		System.out.println("所持金："+money);
+
+
+
+
 	}
 }

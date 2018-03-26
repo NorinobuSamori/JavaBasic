@@ -66,16 +66,18 @@ public class PTra13_09 {
 			emplist[i].setDepartmentCnt(Integer.valueOf(QUATERDATA[1][i]).intValue());
 		}
 
-
-
+		for (Employee emp : emplist) {
+			System.out.println("---------------------------------");
+			System.out.println("ID:" + emp.getUserId());
+			System.out.println("名前：" + emp.getUserNm());
+			System.out.println("メールアドレス：" + emp.getMail());
+			System.out.println("パスワード：" + emp.getPassword());
+			System.out.println("部署：" + emp.getDepartmentNm());
+			System.out.println("部署人数：" + emp.getDepartmentCnt());
+		}
 
 
 		// ★ 定数で定義されている各データを使用して、Employeeインスタンスを３つ作成してください
-
-
-
-
-
 
 
 
