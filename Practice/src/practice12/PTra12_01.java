@@ -24,7 +24,7 @@ public class PTra12_01 {
 		student.setClassName("Z教室");
 		student.setMail("rhizome@hogehoge.com");
 		student.setPassword("1qazxcvb");
-
+//
 		System.out.println("受講生ID　：" + student.getStudentId());
 		System.out.println("受講生名　：" + student.getStudentName());
 		System.out.println("会社名　　：" + student.getCompanyName());

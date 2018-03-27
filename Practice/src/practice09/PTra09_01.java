@@ -11,5 +11,6 @@ public class PTra09_01 {
 		// ※ Utilはインポートしても良いし、完全限定名で記述しても良いです
 
 		Util.dispMessageSlowly(str,lo);
+		//
 	}
 }

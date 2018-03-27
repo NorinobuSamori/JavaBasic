@@ -21,7 +21,7 @@ public class PTra15_01 {
 		Course[] courseLists = {
 				jCourse,
 				dbCourse
-		};
+		};////
 	}
 
 }

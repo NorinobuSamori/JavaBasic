@@ -43,5 +43,5 @@ public class PTra08_06 {
 	// ★ dispValueを引数charでオーバーロードしてください。処理は同じ
 	static void dispValue(char sima) {
 		System.out.println("「" + sima + "」");
-	}
+	}//
 }
